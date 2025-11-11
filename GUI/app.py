@@ -16,19 +16,19 @@ from planners import a_star as a_star_cfg  # 修改連通度用
 from planners.path_simplify import simplify
 
 # ====== 參數集中（GUI 全域變數） ======
-GRID_ROWS: int = 30
-GRID_COLS: int = 40
-CELL_PX: int   = 20          # 每格像素
-BG_COLOR: str  = "#f0f0f0"
-FREE_COLOR: str = "#ffffff"
-OBST_COLOR: str = "#222222"
-PATH_COLOR: str = "#1f77b4"
-START_COLOR:str = "#2ca02c"
-GOAL_COLOR: str = "#d62728"
-SHOW_GRID_LINE: bool = True
-GRIDLINE_COLOR: str = "#cccccc"
-SMOOTH_AFTER_PLAN: bool = True
-CELL_SIZE_M: float = 0.05     # 日後接 Isaac 時使用的解析度
+GRID_ROWS:            int = 30
+GRID_COLS:            int = 40
+CELL_PX:              int = 20          # 每格像素
+BG_COLOR:             str = "#f0f0f0"
+FREE_COLOR:           str = "#ffffff"
+OBST_COLOR:           str = "#222222"
+PATH_COLOR:           str = "#1f77b4"
+START_COLOR:          str = "#2ca02c"
+GOAL_COLOR:           str = "#d62728"
+SHOW_GRID_LINE:       bool = True
+GRIDLINE_COLOR:       str = "#cccccc"
+SMOOTH_AFTER_PLAN:    bool = True
+CELL_SIZE_M:          float = 0.05     # 日後接 Isaac 時使用的解析度
 # ======================================
 
 Coord = Tuple[int, int]
